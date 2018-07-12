@@ -1,0 +1,13 @@
+{
+  "name": "worker",
+  "private": true,
+  "engines": {
+    "node": ">=8.x.x"
+  },
+  "dependencies": {
+    "amqplib": "0.5.2"
+  },
+  "scripts": {
+    "start": "node worker.js"
+  }
+}

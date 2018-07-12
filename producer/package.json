@@ -1,0 +1,14 @@
+{
+  "name": "producer",
+  "private": true,
+  "engines": {
+    "node": "8.11.3"
+  },
+  "dependencies": {
+    "amqplib": "0.5.2",
+    "random-words": "1.1.0"
+  },
+  "scripts": {
+    "start": "node producer.js"
+  }
+}
